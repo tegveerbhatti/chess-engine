@@ -81,11 +81,6 @@ Connect the engine to any UCI-compatible chess GUI:
 ./chess_engine --uci
 ```
 
-Popular UCI-compatible GUIs include:
-- [Arena Chess GUI](http://www.playwitharena.de/)
-- [Cute Chess](https://cutechess.com/)
-- [Lichess Analysis Board](https://lichess.org/analysis) (browser-based)
-
 #### Setting up with a GUI:
 1. Launch your chess GUI
 2. Go to engine settings
@@ -127,20 +122,3 @@ Run all tests with:
 cd build
 ctest --verbose
 ```
-
-## Contributing
-
-Contributions are welcome! Areas for potential improvement:
-- Opening book integration
-- Endgame tablebase support
-- Advanced evaluation features
-- Performance optimizations
-- Additional UCI options
-
-## License
-
-This project is open source. Feel free to use, modify, and distribute according to your needs.
-
-## Acknowledgments
-
-Built following modern chess engine development practices and algorithms commonly used in computer chess programming.
