@@ -1,0 +1,30 @@
+# Build directory
+build/
+cmake-build-*/
+
+# Compiled binaries
+chess_engine
+test_fen
+test_movegen
+test_make_unmake
+test_eval
+test_search
+
+# Object files
+*.o
+*.obj
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Design document
+DESIGN.md
+
