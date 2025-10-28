@@ -34,3 +34,6 @@ add_test(NAME EvalTest COMMAND test_eval)
 
 add_executable(test_search tests/test_search.cpp src/board.cpp src/fen.cpp src/search.cpp src/movegen.cpp src/make_move.cpp src/eval.cpp src/move.cpp)
 add_test(NAME SearchTest COMMAND test_search)
+
+add_executable(test_performance tests/test_performance.cpp src/board.cpp src/fen.cpp src/search.cpp src/movegen.cpp src/make_move.cpp src/eval.cpp src/move.cpp)
+# Note: Performance test is not added to ctest as it's for benchmarking, not validation
