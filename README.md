@@ -24,7 +24,7 @@ A complete chess engine written in C++17 that supports both command-line gamepla
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/tegveerbhatti/chess-engine.git
 cd chess-engine
 
 # Create build directory
@@ -43,7 +43,7 @@ ctest --verbose
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/tegveerbhatti/chess-engine.git
 cd chess-engine
 
 # Create build directory
